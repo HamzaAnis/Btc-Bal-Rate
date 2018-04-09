@@ -1,0 +1,8 @@
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\bin\Debug\netcoreapp2.0\Btc-Bal-Rate.deps.json
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\bin\Debug\netcoreapp2.0\Btc-Bal-Rate.runtimeconfig.json
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\bin\Debug\netcoreapp2.0\Btc-Bal-Rate.runtimeconfig.dev.json
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\bin\Debug\netcoreapp2.0\Btc-Bal-Rate.dll
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\obj\Debug\netcoreapp2.0\Btc-Bal-Rate.fsprojResolveAssemblyReference.cache
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\bin\Debug\netcoreapp2.0\Btc-Bal-Rate.pdb
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\obj\Debug\netcoreapp2.0\Btc-Bal-Rate.dll
+G:\Programming Github\Btc-Bal-Rate\Btc-Bal-Rate\obj\Debug\netcoreapp2.0\Btc-Bal-Rate.pdb

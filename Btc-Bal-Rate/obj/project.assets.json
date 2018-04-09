@@ -55,6 +55,18 @@
           }
         }
       },
+      "FSharp.Data/3.0.0-beta": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Data.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -310,6 +322,32 @@
         "lib/netstandard1.6/tr/FSharp.Core.resources.dll",
         "lib/netstandard1.6/zh-Hans/FSharp.Core.resources.dll",
         "lib/netstandard1.6/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSharp.Data/3.0.0-beta": {
+      "sha512": "KGnet/GsyYd3rxQnBBdr16XjtD7AxMZm9QC/B+1t3nbDPcs4P7Dj2yJHFzJuRig0IGILmOOeo6gibu7cYY5kGg==",
+      "type": "package",
+      "path": "fsharp.data/3.0.0-beta",
+      "files": [
+        "fsharp.data.3.0.0-beta.nupkg.sha512",
+        "fsharp.data.nuspec",
+        "lib/net45/FSharp.Data.DesignTime.dll",
+        "lib/net45/FSharp.Data.DesignTime.pdb",
+        "lib/net45/FSharp.Data.dll",
+        "lib/net45/FSharp.Data.pdb",
+        "lib/net45/FSharp.Data.xml",
+        "lib/netstandard2.0/FSharp.Data.DesignTime.dll",
+        "lib/netstandard2.0/FSharp.Data.DesignTime.pdb",
+        "lib/netstandard2.0/FSharp.Data.dll",
+        "lib/netstandard2.0/FSharp.Data.pdb",
+        "lib/netstandard2.0/FSharp.Data.xml",
+        "linqpad-samples/GitHub.linq",
+        "linqpad-samples/Jira.linq",
+        "linqpad-samples/TypeInference.linq",
+        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.dll",
+        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.pdb",
+        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.dll",
+        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.pdb"
       ]
     },
     "Microsoft.NETCore.App/2.0.0": {
@@ -773,6 +811,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "FSharp.Core >= 4.3.*",
+      "FSharp.Data >= 3.0.0-beta",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -818,6 +857,10 @@
           "FSharp.Core": {
             "target": "Package",
             "version": "[4.3.*, )"
+          },
+          "FSharp.Data": {
+            "target": "Package",
+            "version": "[3.0.0-beta, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

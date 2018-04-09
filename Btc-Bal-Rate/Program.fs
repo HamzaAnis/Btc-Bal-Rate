@@ -1,8 +1,9 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿open System
+open FSharp.Data
 
-open System
+type BtcData = FSharp.Data.JsonProvider<"""{
+  "USD":{"15m":1.1,"last":1.1,"buy":1.1,"sell":1.1,"symbol":"$"}}""">
 
-[<EntryPoint>]
-let main argv =
-    printfn "Hello World from F#!"
-    0 // return an integer exit code
+let prices = BtcData.Load("https://blockchain.info/ticker")
+System.Console.WriteLine(prices.Usd.Sell)
+System.Console.ReadLine()
